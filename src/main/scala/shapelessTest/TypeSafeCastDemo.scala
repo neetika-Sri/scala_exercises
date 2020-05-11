@@ -1,0 +1,7 @@
+package shapelessTest
+
+object TypeSafeCastDemo {
+
+
+
+}
