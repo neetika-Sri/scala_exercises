@@ -18,6 +18,11 @@ libraryDependencies += "org.tpolecat" %% "doobie-hikari" % "0.9.0"
 
 libraryDependencies += "org.tpolecat" %% "doobie-h2" % "0.9.0"
 
+libraryDependencies += "org.scalacheck" %% "scalacheck" % "1.14.3" % "test"
+
+libraryDependencies += "org.scalatestplus" %% "scalacheck-1-14" % "3.1.1.1"
+
+libraryDependencies += "com.github.alexarchambault" %% "scalacheck-shapeless_1.14" % "1.2.5"
 
 resolvers ++= Seq(
   Resolver.sonatypeRepo("releases"),

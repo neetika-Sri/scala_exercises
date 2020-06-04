@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="leetcode1 [file:/Users/neetikas/project/neetika/Leetcode1/]" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="scala_exercises [file:/Users/neetikas/project/neetika/scala_exercises/]" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
     <output url="file://$MODULE_DIR$/../../target/scala-2.13/classes" />
     <output-test url="file://$MODULE_DIR$/../../target/scala-2.13/test-classes" />
@@ -26,6 +26,7 @@
     <orderEntry type="library" name="sbt: org.scalacheck:scalacheck_2.13:1.14.3:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scalactic:scalactic_2.13:3.1.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scalatest:scalatest_2.13:3.1.1:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.scalatestplus:scalacheck-1-14_2.13:3.1.1.1:jar" level="project" />
     <orderEntry type="library" name="sbt: org.scodec:scodec-bits_2.13:1.1.14:jar" level="project" />
     <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.25:jar" level="project" />
     <orderEntry type="library" name="sbt: org.tpolecat:doobie-core_2.13:0.9.0:jar" level="project" />

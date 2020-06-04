@@ -1,0 +1,2 @@
+package scalaCheckTest
+object Properties {}

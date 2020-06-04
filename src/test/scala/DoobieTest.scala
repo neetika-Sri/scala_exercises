@@ -46,4 +46,24 @@ class DoobieTest extends AnyFunSuite with Matchers {
     countriesMap.get(Code("ITA")) should be (None)
 
   }
+  test("Parameterized Queries"){
+    parameterisedQueries.getCountryNameLargePops should be (List("Germany","United States of America"))
+    parameterisedQueries.countriesNameMedPopulation should be (List("Spain","France", "United Kingdom"))
+    parameterisedQueries.getCountriesByPopAndCode should be (List("Spain","France"))
+
+  }
+  test("Insert and updated test"){
+    update.insertOneRow should be (1)
+    update.insertMultiRows() should be (3)
+    update.insertMultiRowsUsingFunctor() should be (2)
+    val listInsert: List[Int] = update.insertMultiRowsUsingTraverse()
+    listInsert.sum should be (4)
+    update.insertUpdateAndSearch()._1 should be (1)
+    update.insertUpdateAndSearch()._2 should be (1)
+    update.insertUpdateAndSearch()._3 should be (Option(15))
+    println(update.retrieveInfo().id)
+    update.retrieveInfo().name should be ("Ramone")
+    update.retrieveInfo().age should be (Option(42))
+    update.batchUpdate() should be (2)
+  }
 }
